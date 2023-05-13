@@ -1,6 +1,7 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { checkStatus } from '../../redux/features/categories/categoriesSlice';
+import './Categories.css';
 
 const Categories = () => {
   const { categories } = useSelector((state) => state.categories);
@@ -11,9 +12,9 @@ const Categories = () => {
   };
 
   return (
-    <div className="categoriesContainer">
-      <h1 className="categoriesHeader">{categories}</h1>
-      <button className="status" type="button" onClick={handleCheckStatus}>
+    <div className="container">
+      <h1 className="header">{categories}</h1>
+      <button className="check" type="button" onClick={handleCheckStatus}>
         Check Status
       </button>
     </div>

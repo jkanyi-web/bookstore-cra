@@ -32,7 +32,7 @@ const Form = () => {
   return (
     <section className="fContainer">
       <h2 className="header">Add New Book</h2>
-      <form className="bookForm">
+      <form className="bForm">
         <input
           className="title"
           type="text"
@@ -52,7 +52,7 @@ const Form = () => {
           onChange={handleInputChange}
         />
         <select
-          className="Category"
+          className="category"
           id="category"
           placeholder="category"
           required

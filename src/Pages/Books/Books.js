@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import Book from '../../components/Book';
-import Form from '../../components/Form';
+import Book from '../../components/BookItem';
+import Form from '../../components/BookForm';
 import { fetchBooks } from '../../redux/features/books/booksSlice';
+import './Books.css';
 
 const Books = () => {
   const { books, status } = useSelector((store) => store.books);
@@ -18,8 +19,8 @@ const Books = () => {
   }, [status, dispatch]);
 
   return (
-    <div className="booksContainer">
-      <section className="booksSection">
+    <div className="bContainer">
+      <section className="bSection">
         {books.map((item) => (
           <Book
             key={item.id}
