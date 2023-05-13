@@ -87,6 +87,9 @@
 .ulLinks {
   display: flex;
   list-style: none;
+  position: absolute;
+  top: 5.7%;
+  left: 25%;
 }
 
 .books,
@@ -101,11 +104,15 @@
   cursor: pointer;
   border: none;
   background: transparent;
+  text-decoration: none;
 }
 
 .userCircle {
   margin-right: 7rem;
   padding: 10px;
+  position: absolute;
+  top: 3%;
+  right: 3%;
 }
 
 .fauser {
@@ -205,6 +212,26 @@
   letter-spacing: normal;
   color: var(--blue1);
   cursor: pointer;
+  padding-right: 5px;
+}
+
+.vert {
+  border-right: 1px solid rgb(192, 190, 190);
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+}
+
+.items h4 {
+  color: gray;
+  margin-top: -3px;
+}
+
+.items p {
+  color: var(--blue0);
 }
 
 .progress {
@@ -320,6 +347,8 @@
   display: flex;
   flex-direction: column;
   max-width: 85rem;
+  border-top: 1px solid #999;
+  padding-top: 1rem;
 }
 
 .comments button {
@@ -441,6 +470,10 @@
     padding: 3px;
     background-color: var(--blue0);
     margin: 10px 10px 10px 0;
+  }
+
+  .categories {
+    color: #777;
   }
 
   .userCircle {

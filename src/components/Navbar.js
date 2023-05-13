@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Navbar = () => (
   <nav className="nContainer">
     <div className="navlinks">
-      <h2 className="navlogo">Bookstore</h2>
+      <h2 className="navlogo">Bookstore CMS</h2>
       <ul className="ulLinks">
         <li>
           <NavLink exact to="/" className="books">

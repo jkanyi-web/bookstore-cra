@@ -14,8 +14,8 @@ const BookDetails = ({
         <h3>{title}</h3>
         <p>{author}</p>
         <ul className="comments">
-          <li>Comments</li>
-          <li>
+          <li className="vert">Comments</li>
+          <li className="vert">
             <button type="button" onClick={() => dispatch(deleteBooks(id))}>
               Remove
             </button>
