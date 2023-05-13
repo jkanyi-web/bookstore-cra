@@ -58,8 +58,7 @@
 
 
 ## 🚀 Live Demo and video <a name="live-demo"></a>
-https://jkanyi-web.github.io/bookstore-app/dist
-https://jkanyi-web.github.io/bookstore-app/
+ 
 
 - [Click Here]()
 
