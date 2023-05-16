@@ -2,3 +2,45 @@ body {
   width: 100vw;
   height: 100vh;
 }
+
+.bContainer {
+  padding-top: 2.313rem;
+  padding-bottom: 14.313rem;
+  width: 100%;
+}
+
+.bSection {
+  margin: 0 2.375rem;
+  max-width: 87.5rem;
+  min-height: 54.563rem;
+  background-color: #fafafa;
+  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid #fff;
+  padding-bottom: 10rem;
+}
+
+.borderLine {
+  margin: 0 2.9rem;
+  margin-top: 2.313rem;
+  height: 0;
+  max-width: 85rem;
+}
+
+.remove {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .bContainer {
+    padding-bottom: 6.563rem;
+  }
+
+  .bSection {
+    margin: 0 1.5rem;
+    min-height: 40rem;
+  }
+
+  .borderLine {
+    margin: 0 1.5rem;
+  }
+}

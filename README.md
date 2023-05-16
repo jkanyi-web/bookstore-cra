@@ -7,7 +7,6 @@
   - [🛠 Built With ](#-built-with-)
     - [Key Features ](#key-features-)
     - [Home page](#home-page)
-  - [🚀 Live Demo and video ](#-live-demo-and-video-)
   - [💻 Getting Started ](#-getting-started-)
   - [Test](#test)
     - [Prerequisites](#prerequisites)
@@ -52,13 +51,6 @@
 -[ ] Contains a form to create new books
 -[ ] Contains a navigation to link to the 2 routes you created
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO AND THE DEPLOY -->
-### Home page
-
-
-## 🚀 Live Demo and video <a name="live-demo"></a>
- 
 
 - [Click Here]()
 
@@ -133,6 +125,8 @@ To get the output of our project make sure you have google Chrome, Mozila or any
 ## 🔭 Future Features <a name="future-features"></a>
 
 ### Key Features <a name="key-features"></a>
+ - A better user experience through more styling
+ - More functionality(editing, comments popup, etc)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
