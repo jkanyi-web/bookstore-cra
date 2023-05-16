@@ -164,11 +164,6 @@
   margin-top: -3px;
 }
 
-.details > h4:hover {
-  border: 0.01rem solid var(--blue0);
-  background: transparent;
-}
-
 .details > h3 {
   height: auto;
   margin: 0.188rem 10.188rem 0 0;
@@ -177,11 +172,6 @@
   font-weight: bold;
   letter-spacing: -0.2px;
   color: var(--black0);
-}
-
-.details > h3:hover {
-  border: 0.01rem solid var(--blue0);
-  background: transparent;
 }
 
 .details > p {
@@ -195,11 +185,6 @@
 
 .items p {
   color: var(--blue0);
-}
-
-.details > p:hover {
-  border: 0.01rem solid var(--blue0);
-  background: transparent;
 }
 
 .comments {
@@ -253,11 +238,6 @@
   border-radius: 45px;
 }
 
-.spinnerIcon:hover {
-  border: 0.01rem solid var(--blue0);
-  background: transparent;
-}
-
 .spinnerText {
   margin-left: 1rem;
 }
@@ -280,11 +260,6 @@
   color: var(--black0);
 }
 
-.completed:hover {
-  border: 0.01rem solid var(--blue0);
-  background: transparent;
-}
-
 .borderLine {
   height: 4.375rem;
   border: 1px solid var(--white1);
@@ -293,11 +268,6 @@
 .chapter {
   display: flex;
   flex-direction: column;
-}
-
-.chapter:hover {
-  border: 0.01rem solid var(--blue0);
-  background: transparent;
 }
 
 .currentChapter {
@@ -355,11 +325,6 @@
   border: none;
   background: transparent;
   color: var(--blue0);
-}
-
-.comments button:hover {
-  border: 0.01rem solid var(--blue0);
-  background: transparent;
 }
 
 .header {
@@ -424,6 +389,10 @@
   color: var(--white0);
   text-transform: uppercase;
   cursor: pointer;
+}
+
+.categories {
+  color: #999;
 }
 
 @media (max-width: 768px) {

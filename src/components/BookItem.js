@@ -7,6 +7,10 @@ const BookDetails = ({
 }) => {
   const dispatch = useDispatch();
 
+  const handleDeleteBook = () => {
+    dispatch(deleteBooks(id));
+  };
+
   return (
     <>
       <div className="items">
@@ -16,7 +20,7 @@ const BookDetails = ({
         <ul className="comments">
           <li className="vert">Comments</li>
           <li className="vert">
-            <button type="button" onClick={() => dispatch(deleteBooks(id))}>
+            <button type="button" onClick={handleDeleteBook} className="remove">
               Remove
             </button>
           </li>
@@ -43,7 +47,6 @@ const BookDetails = ({
           </button>
         </div>
       </div>
-
     </>
   );
 };

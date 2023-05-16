@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => (
   <nav className="nContainer">
@@ -9,12 +9,12 @@ const Navbar = () => (
       <h2 className="navlogo">Bookstore CMS</h2>
       <ul className="ulLinks">
         <li>
-          <NavLink exact to="/" className="books">
+          <NavLink exact to="/" className="books" activeClassName="active">
             Books
           </NavLink>
         </li>
         <li>
-          <NavLink to="/categories" className="categories">
+          <NavLink to="/categories" className="categories" activeClassName="active">
             Categories
           </NavLink>
         </li>

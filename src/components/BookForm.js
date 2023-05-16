@@ -3,13 +3,13 @@ import { useDispatch } from 'react-redux';
 import uniqid from 'uniqid';
 import { postBooks } from '../redux/features/books/booksSlice';
 
-const Form = () => {
+const BookForm = () => {
   const dispatch = useDispatch();
   const [formData, setFormData] = useState({ title: '', author: '', category: '' });
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
+    setFormData((prevFormData) => ({ ...prevFormData, [name]: value }));
   };
 
   const handleAddBook = (e) => {
@@ -32,7 +32,7 @@ const Form = () => {
   return (
     <section className="fContainer">
       <h2 className="header">Add New Book</h2>
-      <form className="bForm">
+      <form className="bForm" onSubmit={handleAddBook}>
         <input
           className="title"
           type="text"
@@ -54,7 +54,6 @@ const Form = () => {
         <select
           className="category"
           id="category"
-          placeholder="category"
           required
           name="category"
           value={formData.category}
@@ -70,7 +69,7 @@ const Form = () => {
           <option value="Fiction">Fiction</option>
           <option value="Science">Science</option>
         </select>
-        <button className="add" type="submit" onClick={handleAddBook}>
+        <button className="add" type="submit">
           Add Book
         </button>
       </form>
@@ -78,4 +77,4 @@ const Form = () => {
   );
 };
 
-export default Form;
+export default BookForm;

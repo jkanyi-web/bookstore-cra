@@ -26,6 +26,10 @@ body {
   max-width: 85rem;
 }
 
+.remove {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 767px) {
   .bContainer {
     padding-bottom: 6.563rem;
